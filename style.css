@@ -1,5 +1,10 @@
+@font-face {
+    font-family: TechFont;
+    src: url("tech.otf");
+}
+
 body{
-    background-color: rgb(138, 138, 255)
+    background-color: #5656fc
 }
 
 
@@ -27,5 +32,25 @@ h1{
 .navbar li{
     float: left;
     text-align: center;
+}
+a {
+    color: #ff0000;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.p1 {
+    font-family: "TechFont";
+    font-size: 30px;
+}
+.p2 {
+    font-family: "TechFont";
+    font-size: 30px;
+}
+.p3 {
+    font-family: "TechFont";
+    font-size: 30px;
 }
 
