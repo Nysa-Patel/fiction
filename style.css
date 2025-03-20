@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #5656fc
+    background-color: #5656fc;
 }
 
 
@@ -47,10 +47,39 @@ a:hover {
 }
 .p2 {
     font-family: "TechFont";
-    font-size: 30px;
+    font-size: 25px;
 }
 .p3 {
     font-family: "TechFont";
-    font-size: 30px;
+    font-size: 20px;
 }
+p{
+    font-size: large;
+}
+.lightblue{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(48, 157, 247);
+    position: relative;
+    top: 5px;  /* Moves the lightblue box up */
+    margin: 250px;
+    padding: 20px;
+    
+    display: inline-flex;   /* Use flexbox */
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
 
+    }
+    .red{
+        width: 350px;
+        height: 350px;
+        background-color: rgb(228, 27, 27);
+        top: -20px;  /* Moves the lightblue box up */
+        margin: 250px;
+        padding: 20px;
+        
+        display: inline-flex;   /* Use flexbox */
+    justify-content: center;  /* Horizontally center */
+    align-items: center;
+    
+    } 
