@@ -59,12 +59,13 @@ p{
 .lightblue{
     width: 350px;
     height: 350px;
-    background-color: rgb(48, 157, 247);
+    background-color: #309df7;
     position: relative;
     top: 5px;  /* Moves the lightblue box up */
-    margin: 250px;
-    padding: 20px;
     
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 130px;
     display: inline-flex;   /* Use flexbox */
     justify-content: center;  /* Horizontally center */
     align-items: center;      /* Vertically center */
@@ -73,10 +74,12 @@ p{
     .red{
         width: 350px;
         height: 350px;
-        background-color: rgb(228, 27, 27);
+        background-color: #e41b1b;
         top: -20px;  /* Moves the lightblue box up */
-        margin: 250px;
+        
         padding: 20px;
+        margin-left: 150px;
+        margin-right: 150px;
         
         display: inline-flex;   /* Use flexbox */
     justify-content: center;  /* Horizontally center */
@@ -85,4 +88,6 @@ p{
     } 
     #first {
         width: 500px;
+        font-size: large;
       }
+
